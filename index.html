@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Donut Maker Clicker</title>
+</head>
+
+<body>
+    <header>
+        <h1>Fred the Baker Baking Company</h1>
+        <nav>
+            <div class="topnav">
+                <a class="active" href="./index.html">Donut Maker Clicker</a>
+                <a href="./inspiration.html">Game Inspiration</a>
+                <div class="dropdown">
+                    <button class="dropbtn">About
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./rules.html">How it Works</a>
+                        <a href="./about.html">About the Company</a>
+                        <a href="./contact.html">About the Developer</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="game_container">
+            <div class="image">
+                <img class="donut_pic" src="./images/donut.png" alt="donut">
+            </div>
+            <div class="game">
+                <h3>Donut Maker Clicker</h3>
+                <button onclick="reset()">Reset</button>
+                <button onclick="clickDonut()">Make a Donut</button>
+                <p><b>Number of Donuts Made:</b> <span id="donutCounter">0</span></p>
+                <p class="info">(<b>Number of Donuts Made:</b> The total number of donuts you have
+                    created, either by clicking the button or through Auto-Clickers.)</p>
+                <button id="autoClicker" onclick="clickAutoDonut()" disabled>Buy Auto-Clicker</button>
+                <p><b>Number of Auto-Clickers Purchased:</b> <label id="autoCount"></label> </p>
+                <p class="info">(<b>Number of Auto-Clickers Purchased:</b> The number of Auto Clickers you have
+                    purchased, which determines how many clicks are applied per second.)</p>
+                <label id="autoCost">auto</label>
+                <p class="info">(<b>Next Auto-Clicker Cost:</b>The cost in donuts to purchase an Auto-Clicker, which
+                    increases with each purchase.)</p>
+            </div>
+
+    </main>
+    <footer>
+        <p>&copy;2025 Anja Setala</p>
+    </footer>
+
+    <script src="donuts.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

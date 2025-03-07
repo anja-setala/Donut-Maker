@@ -1,0 +1,192 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #8C1767;
+}
+
+body {
+    background-color: #FFE8D4;
+    padding: 5px 10px 5px 10px;
+    margin: 2px;
+    color: #8C1767;
+
+}
+
+.info {
+    font-size: 10px;
+}
+
+.final {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.donut_pic {
+    vertical-align: top;
+    width: 100%;
+    margin: 20px 15px 15px 5px;
+    height: auto;
+    border-radius: 30%;
+}
+
+.game_container {
+    display: grid;
+    grid-template-columns: 200px auto auto;
+    margin: 2%;
+    gap: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px #ED31A8;
+}
+
+.inspiration {
+    display: grid;
+    margin: 2%;
+    gap: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px #ED31A8;
+}
+
+.about,
+.contact {
+    display: grid;
+    margin: 2%;
+    gap: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px #ED31A8;
+
+    p {
+        line-height: 20px;
+        margin-top: 2px;
+    }
+
+    ;
+
+    h3 {
+        line-height: 10px;
+        margin-top: 2px;
+    }
+}
+
+.image {
+    padding: 10px;
+    grid-column: 1;
+    width: 30%5%;
+}
+
+.game {
+    padding: 10px;
+    grid-column: 2 / span 2;
+    grid-column-start: 2;
+}
+
+.rules {
+    padding: 10px;
+    grid-column: 1 / span 3;
+}
+
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    top: 0;
+    background-color: #E5A4CB;
+    overflow: hidden;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+.topnav a {
+    float: center;
+    color: #ED31A8;
+    background-color: #E4A0C9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #ED31A8;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #FBEFF6;
+    color: #ED31A8;
+}
+
+.topnav a.active {
+    background-color: #8C1767;
+    color: #ED31A8;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #ED31A8;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #FBEFF6;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    margin-top: auto;
+    padding: 10px 0;
+    bottom: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #E4A0C9;
+    color: #ED31A8;
+}
+
+button {
+    color: #ED31A8;
+    text-align: center;
+    font-weight: bold;
+    background-color: #E5A4CB;
+    border-color: #8C1767;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px #ED31A8;
+}
