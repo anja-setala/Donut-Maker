@@ -190,3 +190,7 @@ button {
     cursor: pointer;
     box-shadow: 2px 2px 4px #ED31A8;
 }
+
+#autoClicker:disabled {
+    color:#d67ab4;
+}
